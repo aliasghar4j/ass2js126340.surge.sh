@@ -41,9 +41,14 @@ function task3(text) {
   function task4(text) {
         text = prompt('Please enter a string argument to use as text for new paragraph at bottom');
         document.getElementById('list').innerHTML += "<li>" + text + "</li>"
-    // const newParagraph = document.createElement('li');
-    // newParagraph.textContent = text;
-    // document.body.ul.appendChild(newParagraph);
+  }
+
+  function task5(element, color){
+    element = prompt('enter the element of which background color is to be changed')
+    color = prompt('enter the color')
+    document.getElementsByTagName(element).style.background
+// document.getElementsByTagName(element).style
+
   }
 
 

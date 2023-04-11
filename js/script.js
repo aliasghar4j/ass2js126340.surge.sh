@@ -30,16 +30,6 @@ function task2(){
 
 
 
-
-// Task 3 =================================================================
-// function task3() {
-//     let string = prompt('Please enter a string argument to use as text for new paragraph at bottom')
-//     let nPara = document.createElement('p')
-// nPara.innerHTML = string
-
-// let html = "<p style='color: red;>" + string + "</p>"
-// document.body.innerHTML = string;
-// }
 function task3(text) {
         text = prompt('Please enter a string argument to use as text for new paragraph at bottom')
     const newParagraph = document.createElement('p');
@@ -47,4 +37,13 @@ function task3(text) {
     document.body.appendChild(newParagraph);
   }
 
-  
+
+  function task4(text) {
+        text = prompt('Please enter a string argument to use as text for new paragraph at bottom');
+        document.getElementById('list').innerHTML += "<li>" + text + "</li>"
+    // const newParagraph = document.createElement('li');
+    // newParagraph.textContent = text;
+    // document.body.ul.appendChild(newParagraph);
+  }
+
+
